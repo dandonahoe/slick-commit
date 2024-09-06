@@ -1,7 +1,11 @@
 
+
 # Slick Commit
 
 Slick Commit is a tool that leverages OpenAI's GPT-4 to automatically generate high-quality commit messages based on staged changes in your Git repository. It uses AI to analyze the `git diff` and creates concise, readable, and technically sound commit messages—far better than most humans can craft on the spot.
+
+![image](https://github.com/user-attachments/assets/81d30090-904f-42ba-9474-b2dc9d649f1e)
+
 
 ## Features
 
