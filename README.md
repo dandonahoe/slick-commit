@@ -1,11 +1,17 @@
-
+![image](https://github.com/user-attachments/assets/81d30090-904f-42ba-9474-b2dc9d649f1e)
 
 # Slick Commit
 
 Slick Commit is a tool that leverages OpenAI's GPT-4 to automatically generate high-quality commit messages based on staged changes in your Git repository. It uses AI to analyze the `git diff` and creates concise, readable, and technically sound commit messages—far better than most humans can craft on the spot.
 
-![image](https://github.com/user-attachments/assets/81d30090-904f-42ba-9474-b2dc9d649f1e)
 
+<div style="text-align: left;">
+    <h3>Example Commits</h3>
+    <p>Below is a screenshot showcasing beautifully formatted commit messages, automatically generated to provide clear, structured, and meaningful descriptions of changes, ensuring consistency and readability across the project.
+</p>
+    <img width="1096" alt="image" src="https://github.com/user-attachments/assets/ad552be7-beaa-4cbc-bb29-37b2a0c58585">
+    <figcaption style="margin-top: 10px;">Check the commit messages of this repo for more real world examples.</figcaption>
+</div>
 
 ## Features
 
