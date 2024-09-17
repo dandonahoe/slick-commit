@@ -1,6 +1,6 @@
 {
     "name": "slick-commit",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "commonjs",
     "description": "Way better commit messages, automatically.",
     "main": "dist/index.js",
@@ -21,7 +21,6 @@
     },
     "devDependencies": {
         "@types/node": "22.5.5",
-        "semantic-release": "24.1.1",
         "ts-node": "10.9.2",
         "typescript": "5.6.2"
     }
