@@ -2,6 +2,8 @@ import { generateCommitMessage, createCompletion } from './commit-message';
 import { getStagedDiff, execCommand } from './git-helpers';
 import { parseDiffIntoChunks } from './git-helpers';
 import { logColor, Color } from './logger';
+import { MaxTokens } from './constant';
+
 
 export const main = async (): Promise<void> => {
 
@@ -20,7 +22,7 @@ export const main = async (): Promise<void> => {
 
     const fileSummaries = parseDiffIntoChunks(diff);
     const summaryPromises = fileSummaries.map(summary =>
-        createCompletion(`Summarize the file diff for commit. Provide statistics at the end: ${summary.slice(0, 1000)}`),
+        createCompletion(`Provide a detailed description of: ${summary.slice(0, MaxTokens * 2)}`),
     );
 
     const fileSummariesResponses = await Promise.all(summaryPromises);
