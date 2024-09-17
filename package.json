@@ -1,9 +1,12 @@
 {
     "name": "slick-commit",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "type": "commonjs",
     "description": "Way better commit messages, automatically.",
     "main": "dist/index.js",
+    "bin": {
+      "slick-commit": "./dist/index.js"
+    },
     "types": "dist/index.d.ts",
     "scripts": {
         "slick-commit": "ts-node src/index.ts",
